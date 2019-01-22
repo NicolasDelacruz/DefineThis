@@ -1,0 +1,21 @@
+{
+    // Required
+    "app": {
+      "background": {
+        // Optional
+        "scripts": ["background.js"]
+      }
+    },
+    "manifest_version": 2,
+    "name": "DefineThis",
+    "version": "1.0",
+    "description": "A chrome extension that gets a definition of the current highlighted word.",
+    //TBD "icons": {...},
+  
+    // Optional
+    "author": "Nicolas De la Cruz",
+    "key": "publicKey",
+    //TBD "minimum_chrome_version": "versionString",
+    "offline_enabled": false,
+    "version_name": "1.0 beta",
+  }
